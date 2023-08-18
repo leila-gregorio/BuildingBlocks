@@ -11,8 +11,6 @@ BuildingBlocks: An Educational Application for Children
 * Java, Firebase Real-time Database, Firebase Storage, Android Studio
 
 ### APK LINK
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * [BuildingBlocks APK](https://github.com/leila-gregorio/BuildingBlocks.git)
 
 ### Document
