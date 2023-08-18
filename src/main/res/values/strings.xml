@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">BuildingBlocks</string>
+    <!-- Nav Bar Strings -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- Citation Strings -->
+    <string name="citation_1">Amethyst Studio. (n.d.). Green Snake Illustration. Canva. Retrieved from https://www.canva.com/media/MADmcgPdML8. </string>
+    <string name="citation_2">Ben OBrien. (2020). Upload Images to Firebase in Android Studio | Beginner Guide. Youtube. Retrieved November 23, 2021. </string>
+    <string name="citation_3">Color Vectors. (n.d.). Green Snake Illustration. Canva. Retrieved from https://www.canva.com/media/MADmcgPdML8. </string>
+    <string name="citation_4">DAPA Images. (n.d.). Goat. Canva. Retrieved from https://www.canva.com/media/MADQOv556NE. </string>
+    <string name="citation_5">DAPA Images. (n.d.). Hen. Canva. Retrieved from https://www.canva.com/media/MADQOsl1rRo. </string>
+    <string name="citation_6">Drawcee. (n.d.). Asian Kid Jumping for Joy. Canva. Retrieved from https://www.canva.com/media/MAEAJAVhMS4. </string>
+    <string name="citation_7">Icons8. (n.d.). Pig. Canva. Retrieved from https://www.canva.com/media/MAB0h3xQm_A. </string>
+    <string name="citation_8">Mybeautifulfiles. (n.d.). Cute Frog Character Illustration. Canva. Retrieved from https://www.canva.com/media/MAEYSBlrlyE. </string>
+    <string name="citation_9">Printable Pretty. (n.d.). Crayola Coloring Material Icon. Canva. Retrieved from https://www.canva.com/media/MACP0AQbpCo. </string>
+    <string name="citation_10">Printablee. (2015). Printable Alphabet Flashcards. Retrieved from https://www.printablee.com/post_free-printable-alphabet-flashcards_53016/. </string>
+    <string name="citation_11">Sketchify Philippines. (n.d.). Classroom Interior Scene . Canva. Retrieved from https://www.canva.com/media/MADsQ3Vj7eE. </string>
+    <string name="citation_12">Sketchify. (n.d.). Building Blocks Cartoon Children\\\'s Day People. Canva. Retrieved from https://www.canva.com/media/MAEMgicKQ7E. </string>
+    <string name="citation_13">Sketchify. (n.d.). Full Body Dog White. Canva. Retrieved from https://www.canva.com/media/MADsQ3Vj7eE. </string>
+    <string name="citation_14">Sketchify. (n.d.). Hand Drawn Kid Playing Building Blocks. Canva. Retrieved from https://www.canva.com/media/MAD7UIdX2eM. </string>
+    <string name="citation_15">Tutorialspoint. (n.d.). Android List View. Retrieved November 23, 2021, from https://www.tutorialspoint.com/android/android_list_view.htm. </string>
+    <string name="citation_16">The Visual Team. (2021). Dog Generator. Figma. Retrieved from https://www.figma.com/community/file/940893921993869892/Dog-Generator. </string>
+
+
+    <!-- Layout Strings -->
+    <string name="welcome">WELCOME</string>
+    <string name="home">home</string>
+    <string name="learn">LEARN</string>
+    <string name="alphabet">THE\nALPHABET</string>
+    <string name="colors">THE\nCOLORS</string>
+    <string name="animals">THE\nANIMALS</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="logo">Logo</string>
+    <string name="back_button">back button</string>
+    <string name="others_button">others button</string>
+
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="title">title</string>
+    <string name="goat">Goat</string>
+    <string name="chicken">Chicken</string>
+    <string name="snake">Snake</string>
+    <string name="frog">Frog</string>
+    <string name="monkey">Monkey</string>
+    <string name="pig">Pig</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="profile">Let\'s setup your profile</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="settings">SETTINGS</string>
+    <string name="title_activity_settings2">SettingsActivity2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="textview">TextView</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login">LOGIN</string>
+    <string name="create_a_new_account">Create a new account?</string>
+    <string name="skip_login">SKIP LOGIN</string>
+    <string name="banner">banner</string>
+    <string name="image">image</string>
+    <string name="upload_image">UPLOAD IMAGE</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="start">START</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="register">REGISTER</string>
+    <string name="already_have_a_account">Already have an account?</string>
+    <string name="the_developers">developers</string>
+    <string name="binay">Binay</string>
+    <string name="gregorio">Gregorio</string>
+    <string name="ronato">Ronato</string>
+    <string name="john_rouen">John Rouen</string>
+    <string name="leila_patricia">Leila Patricia</string>
+    <string name="angelica_mae">Angelica Mae</string>
+    <string name="sources">Sources</string>
+    <string name="binay_image">binay image</string>
+    <string name="gregorio_image">gregorio image</string>
+    <string name="ronato_image">ronato image</string>
+
+</resources>

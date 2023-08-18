@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".RegisterActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linLayoutVertical"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/wave"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/registerCard"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="25dp"
+            android:background="@drawable/sample"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/registerProfile"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:contentDescription="Image"
+                app:srcCompat="@drawable/sample" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linLayoutVertical">
+
+        <TextView
+            android:id="@+id/tvRegisterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/profile"
+            android:textColor="#403B3B"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edtRegisterName"
+            style="@style/editTextStyle"
+            android:drawableStart="@drawable/ic_baseline_name"
+            android:hint="@string/enter_your_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtRegisterEmail"
+            style="@style/editTextStyle"
+            android:drawableStart="@drawable/ic_baseline_email"
+            android:hint="@string/enter_your_email_address"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#5C5757" />
+
+        <EditText
+            android:id="@+id/edtRegisterPassword"
+            style="@style/editTextStyle"
+            android:drawableStart="@drawable/ic_baseline_password"
+            android:hint="@string/enter_your_password"
+            android:inputType="textPassword"
+            android:textColorHint="#5C5757" />
+
+        <EditText
+            android:id="@+id/edtConfirmPassword"
+            style="@style/editTextStyle"
+            android:drawableStart="@drawable/ic_baseline_password"
+            android:hint="@string/confirm_your_password"
+            android:inputType="textPassword"
+            android:textColorHint="#5C5757" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            style="@style/buttonStyle"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FF5A5A"
+            android:text="@string/register"
+            app:cornerRadius="15dp"
+            app:rippleColor="#000000"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tvHaveAccount"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#00FFFFFF"
+            android:gravity="center"
+            android:text="@string/already_have_a_account"
+            android:textColor="#5C5757"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

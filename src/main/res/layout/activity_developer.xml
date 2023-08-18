@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill"
+    android:background="@drawable/gradient_background"
+    android:fadeScrollbars="false"
+    android:scrollbarSize="2dp"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="vertical"
+    android:verticalScrollbarPosition="right"
+    tools:context=".DeveloperActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:layout_marginBottom="373dp"
+        android:background="@drawable/wave"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+        <ImageButton
+            android:id="@+id/btnBack2"
+            android:layout_width="77dp"
+            android:layout_height="72dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/back_button"
+            android:padding="10dp"
+            app:srcCompat="@drawable/btnback"
+            tools:ignore="RedundantDescriptionCheck" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:backgroundTint="#FF5A5A"
+            android:gravity="center"
+            android:letterSpacing="0.1"
+            android:padding="8dp"
+            android:text="@string/the_developers"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill_horizontal|fill_vertical"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="start"
+
+                    android:layout_margin="1dp"
+                    android:src="@drawable/developer2"
+                    android:contentDescription="@string/binay_image" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/gregorio_image"
+                    android:layout_margin="1dp"
+                    android:src="@drawable/developer1"/>
+                <ImageView
+                    android:layout_gravity="end"
+
+                    android:id="@+id/imageView4"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/ronato_image"
+                    android:layout_margin="1dp"
+                    android:src="@drawable/developer3"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center|center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="#FFC278"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="@string/binay"
+                    android:textAllCaps="true"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="#FFC278"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="@string/gregorio"
+                    android:textAllCaps="true"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="#FFC278"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="@string/ronato"
+                    android:textAllCaps="true"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:text="@string/john_rouen"
+                    android:textColor="#403B3B"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:text="@string/leila_patricia"
+                    android:textColor="#403B3B"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:text="@string/angelica_mae"
+                    android:textColor="#403B3B"
+                    android:textSize="16sp" />
+            </TableRow>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center|fill_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:backgroundTint="#6256AF"
+            android:gravity="center"
+            android:letterSpacing="0.1"
+            android:padding="8dp"
+            android:text="@string/sources"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="10dip" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

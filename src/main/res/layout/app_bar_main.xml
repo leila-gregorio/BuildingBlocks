@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.BuildingBlocks.AppBarOverlay"/>
+
+    <include layout="@layout/content_main" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="77dp"
+        android:layout_height="72dp"
+        android:layout_gravity="end"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-83dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/others_button"
+        app:popupTheme="@style/Theme.BuildingBlocks.PopupOverlay"
+        app:srcCompat="@drawable/btnothers"
+        tools:ignore="RedundantDescriptionCheck" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

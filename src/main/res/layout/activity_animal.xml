@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:backgroundTint="#F8F4F4"
+    tools:context=".AnimalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnOther"
+            android:layout_width="77dp"
+            android:layout_height="72dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/back_button"
+            android:padding="10dp"
+            android:src="@drawable/btnback"/>
+
+        <ImageView
+            android:id="@+id/imgTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-30dp"
+            android:layout_marginBottom="5dp"
+            android:contentDescription="@string/title"
+            android:paddingTop="0dp"
+            android:paddingBottom="5dp"
+            app:srcCompat="@drawable/titleanimal"
+            tools:ignore="ImageContrastCheck" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#ffffff"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="0dp">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center|center_vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btnCat"
+                        style="@style/soundBoardStyle"
+                        android:layout_weight="1"
+                        android:backgroundTint="#FF5A5A"
+                        android:drawableBottom="@drawable/btncat"
+                        android:text="@string/cat"
+                        app:cornerRadius="20dp" />
+
+                    <Button
+                        android:id="@+id/btnDog"
+                        style="@style/soundBoardStyle"
+                        android:layout_weight="1"
+                        android:backgroundTint="#4A7295"
+                        android:drawableBottom="@drawable/btndog"
+                        android:text="@string/dog"
+                        app:cornerRadius="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btnSnake"
+                        style="@style/soundBoardStyle"
+                        android:layout_weight="1"
+                        android:backgroundTint="#F8B768"
+                        android:drawableBottom="@drawable/btnsnake"
+                        android:text="@string/snake"
+                        app:cornerRadius="20dp" />
+
+                    <Button
+                        android:id="@+id/btnFrog"
+                        style="@style/soundBoardStyle"
+                        android:layout_weight="1"
+                        android:backgroundTint="#99BEAD"
+                        android:drawableBottom="@drawable/btnfrog"
+                        android:text="@string/frog"
+                        app:cornerRadius="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btnMonkey"
+                        style="@style/soundBoardStyle"
+                        android:layout_weight="1"
+                        android:backgroundTint="#FF5A5A"
+                        android:drawableBottom="@drawable/btnmonkey"
+                        android:text="@string/monkey"
+                        app:cornerRadius="20dp" />
+
+                    <Button
+                        android:id="@+id/btnGoat"
+                        style="@style/soundBoardStyle"
+                        android:layout_weight="1"
+                        android:backgroundTint="#4A7295"
+                        android:drawableBottom="@drawable/btngoat"
+                        android:text="@string/goat"
+                        app:cornerRadius="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btnPig"
+                        style="@style/soundBoardStyle"
+                        android:layout_weight="1"
+                        android:backgroundTint="#F8B768"
+                        android:drawableBottom="@drawable/btnpig"
+                        android:text="@string/pig"
+                        app:cornerRadius="20dp" />
+
+                    <Button
+                        android:id="@+id/btnChicken"
+                        style="@style/soundBoardStyle"
+                        android:layout_weight="1"
+                        android:backgroundTint="#99BEAD"
+                        android:drawableBottom="@drawable/btnchicken"
+                        android:text="@string/chicken"
+                        app:cornerRadius="20dp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-25dp"
+            android:background="#FFFFFF" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

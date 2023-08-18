@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linLayoutVertical"
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/wave"
+        android:orientation="vertical"
+        android:rotation="360"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/ivLoginBanner"
+            android:layout_width="match_parent"
+            android:layout_height="273dp"
+            android:contentDescription="@string/banner"
+            app:srcCompat="@drawable/login_banner" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="457dp"
+        android:layout_marginTop="-10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linLayoutVertical">
+
+        <EditText
+            android:id="@+id/edtLoginEmail"
+            style="@style/editTextStyle"
+            android:drawableStart="@drawable/ic_baseline_email"
+            android:hint="@string/enter_your_email_address"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#5C5757" />
+
+        <EditText
+            android:id="@+id/edtLoginPassword"
+            style="@style/editTextStyle"
+            android:drawableStart="@drawable/ic_baseline_password"
+            android:hint="@string/enter_your_password"
+            android:inputType="textPassword"
+            android:textColorHint="#5C5757" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/buttonStyle"
+            android:layout_width="290dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FF5A5A"
+            android:text="@string/login"
+            app:cornerRadius="15dp"
+            app:rippleColor="#000000"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tvNewAccount"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#00FFFFFF"
+            android:gravity="center"
+            android:text="@string/create_a_new_account"
+            android:textColor="#5C5757"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnGetStarted"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_margin="30dp"
+            android:backgroundTint="#6256AF"
+            android:text="@string/skip_login"
+            app:cornerRadius="15dp"
+            app:rippleColor="#000000" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
